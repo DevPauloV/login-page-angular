@@ -1,0 +1,30 @@
+
+:root {
+
+    --primary-color: #7001fd;
+    --text-color: #555555;
+    --segundary-color: #1e2772;
+    --gray-bg: #eeeeee;
+
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-sectionn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    flex-grow: 1;
+    background-color: var(--gray-bg);
+}
